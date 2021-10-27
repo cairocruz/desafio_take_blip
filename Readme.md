@@ -13,6 +13,7 @@
   <a href="#-formato-do-arquivo-JSON">Formato do arquivo JSON</a> •
   <a href="#-como-executar-o-projeto">Como executar o Projeto</a> •
   <a href="#-tecnologias">Tecnologias</a> •
+  <a href = "#-links- uteis">Links Uteis</a>•
   <a href="#user-content--licença">Licença</a>
 </p>
 
@@ -45,10 +46,8 @@ Com auxilio do Postman solicitei uma requisição get na api em localhost para a
   "0": {
     "name": "takenet/library.data",
     "description": "Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications",
-    "image": "https://avatars.githubusercontent.com/u/4369522?v=4"
-  }, ...
+    "image": "https://avatars.githubusercontent.com/u/4369522?v=4"```json
 }
-```json
 {
   "0": {
     "name": "nome do projeto",
@@ -81,12 +80,17 @@ $ node index.js
 
 As seguintes ferramentas foram usadas na construção da API:
 
-- **[NODEJS](https://nodejs.org/en/)**
-- **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+- **[NodeJS](https://nodejs.org/en/)**
+- **[Cors](https://expressjs.com/en/resources/middleware/cors.html)**
 - **[Axios](https://github.com/axios/axios)**
 - **[Express](https://expressjs.com/)**
 - **[Nodemon](https://www.npmjs.com/package/nodemon)**
 
 ---
+
+## Links Uteis
+
+- [x] Link do deploy da api feito pelo Heroku: https://takeblipapi.herokuapp.com/repositoryTake
+- [x] Link do BotLora na plataforma TakeBlip: https://cairo-cruz-25qx5.chat.blip.ai/?appKey=bXlib3Q0MjpmNmNiYTBlYS00YWMyLTQ0YmMtYTE2Zi1jYWJhM2YzYWEyZjY=
 
 ## 🦸 Autor
