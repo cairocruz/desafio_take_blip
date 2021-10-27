@@ -1,7 +1,7 @@
 const axios = require("axios")
-
+const baseAPI = "https://api.github.com"
 const apiGitUrl = axios.create({
-    baseURL: "https://api.github.com"
+    baseURL: baseAPI
 })
 
 module.exports = apiGitUrl;

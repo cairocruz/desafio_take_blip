@@ -1,21 +1,29 @@
 </p>
 <h1 align="center">
-  <img alt="Desafio TakeBlip" title="Desafio TakeBlip" src="./assets/banner.png" />
+Desafio TakeBlip
 </h1>
 
 <h4 align="center">
-  🤖 API para o ChatBot Lora. Status: Concluido✔️
+  🤖 API para o ChatBot Lora
 </h4>
 
-<p align="center">
-  <a href="#-sobre-o-desafio">Sobre o desafio</a> •
-  <a href="#-resultado-esperado-do-Desafio">Resultado esperado do desafio</a> •
-  <a href="#-formato-do-arquivo-JSON">Formato do arquivo JSON</a> •
-  <a href="#-como-executar-o-projeto">Como executar o Projeto</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
-  <a href = "#-links- uteis">Links Uteis</a>•
-  <a href="#user-content--licença">Licença</a>
-</p>
+> Status do Projeto: Concluído :heavy_check_mark:
+
+### Tópicos
+
+:small_blue_diamond: [Sobre o desafio](#-sobre-o-desafio)
+
+:small_blue_diamond: [Resultado esperado do desafio](#resultado-esperado-do-desafio)
+
+:small_blue_diamond: [Formato do arquivo JSON](#-formato-do-arquivo-json)
+
+:small_blue_diamond: [Como executar o Projeto](#-como-executar-o-projeto)
+
+:small_blue_diamond: [Tecnologias](#-tecnologias)
+
+:small_blue_diamond: [Links Uteis](#links-uteis)
+
+:small_blue_diamond: [Licença](#user-content--licença)
 
 ---
 
@@ -23,7 +31,7 @@
 
 ## O desafio sugere a criação de um chatbot(Lora), que apresenta a cultura Take, contendo 6 tópicos de extrema importância para todos os colaboradores da empresa. Ainda deve ser criada uma API intermediaria que faz a comunicação com o repositorio da Take mostrando carrosel os 5 projetos mais antigos da empresa em C#.
 
-## ⚙️ Resultado esperado do desafio
+## Resultado esperado do desafio
 
 - [x] Seguir o fluxo conversional apresentado na documentação do desafio.
 - [x] Criação de uma api intermediaria que faz a comunicação do chatbot com o Github
@@ -41,38 +49,47 @@ Com auxilio do Postman solicitei uma requisição get na api em localhost para a
 
 <h3>Explicação do JSON de saida da API:</h3>
 
-````json
+```json
 {
   "0": {
     "name": "takenet/library.data",
     "description": "Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications",
-    "image": "https://avatars.githubusercontent.com/u/4369522?v=4"```json
+    "image": "https://avatars.githubusercontent.com/u/4369522?v=4"
 }
 {
   "0": {
     "name": "nome do projeto",
     "description": "Descrição do projeto",
     "image": "imagem do projeto"
-  }, ...
-````
+},
+```
 
 ---
 
-## 🚀 Como executar o projeto
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/cairocruz/desafio_take_blip
-# Acesse a pasta do projeto no terminal/cmd
 $ cd desafiotake
+
 # Vá para a pasta src
+
 $ cd src
+
 # Instale as dependências
+
 $ npm install
+
 # Execute a aplicação em modo de desenvolvimento
+
 $ node index.js
+
 # O servidor inciará na porta:8085 - acesse http://localhost:8085
+
 ```
+## 🦸 Autor
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+
+
 
 ---
 
@@ -90,7 +107,14 @@ As seguintes ferramentas foram usadas na construção da API:
 
 ## Links Uteis
 
-- [x] Link do deploy da api feito pelo Heroku: https://takeblipapi.herokuapp.com/repositoryTake
-- [x] Link do BotLora na plataforma TakeBlip: https://cairo-cruz-25qx5.chat.blip.ai/?appKey=bXlib3Q0MjpmNmNiYTBlYS00YWMyLTQ0YmMtYTE2Zi1jYWJhM2YzYWEyZjY=
+- [x] Link do deploy da api feito pelo Heroku: <a href="https://takeblipapi.herokuapp.com/repositoryTake">Deploy da Api</a>
+- [x] Link do BotLora na plataforma TakeBlip: <a href="https://cairo-cruz-25qx5.chat.blip.ai/?appKey=bXlib3Q0MjpmNmNiYTBlYS00YWMyLTQ0YmMtYTE2Zi1jYWJhM2YzYWEyZjY=">Chatbot para teste</a>
 
-## 🦸 Autor
+---
+
+## Licença
+
+The [MIT License]() (MIT)
+
+Copyright ©️ 2021
+```
