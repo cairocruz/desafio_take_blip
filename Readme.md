@@ -17,13 +17,13 @@ Desafio TakeBlip
 
 :small_blue_diamond: [Formato do arquivo JSON](#-formato-do-arquivo-json)
 
-:small_blue_diamond: [Como executar o Projeto](#-como-executar-o-projeto)
+:small_blue_diamond: [Como executar o Projeto](#como-executar-o-projeto)
 
 :small_blue_diamond: [Tecnologias](#-tecnologias)
 
 :small_blue_diamond: [Links Uteis](#links-uteis)
 
-:small_blue_diamond: [Licença](#user-content--licença)
+:small_blue_diamond: [Licença](#licença)
 
 ---
 
@@ -65,32 +65,20 @@ Com auxilio do Postman solicitei uma requisição get na api em localhost para a
 ```
 
 ---
+## Como executar o Projeto
+
+```bash
 
 $ cd desafiotake
-
 # Vá para a pasta src
-
 $ cd src
-
 # Instale as dependências
-
 $ npm install
-
 # Execute a aplicação em modo de desenvolvimento
-
 $ node index.js
-
 # O servidor inciará na porta:8085 - acesse http://localhost:8085
 
 ```
-## 🦸 Autor
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
-
-
-
 ---
 
 ## 🛠 Tecnologias
